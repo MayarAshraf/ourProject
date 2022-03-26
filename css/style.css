@@ -1,0 +1,103 @@
+/*This is To Normalize The Element in Page*/
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/*Font Of The Html Page*/
+body
+{
+    font-family: Arial,sans-serif;
+}
+/* ****************************************************************** */
+/* A_Taha Section */
+/*Start The Section Of *********Qualified Doctor******************** */
+.doctors
+{
+    padding: 0 20px 10px 50px;
+    background-color: #F8F9FA;
+
+}
+.container
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;;
+}
+div .heading
+{
+    font-size: 19px;
+    padding:40px 0 85px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.parent
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 4fr) ) ;
+    margin-top: 65px;
+    position: relative;
+}
+.parent .all_info
+{
+    width: 330px;
+    height: 430px;
+    background-color: white;
+}
+.parent img
+{
+    width: 180px;
+    height: 180px;
+    border: 14px solid #F8F9FA;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+.Upper_info
+{
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+}
+.Upper_info h2
+{
+    font-weight: lighter;
+    padding: 10px 0 20px 0;
+}
+.Upper_info h3
+{
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #299ADC;
+    padding: 2px 0 15px 0;
+}
+.Upper_info p
+{
+    color: #999;
+    font-size: 18px ;
+    text-align: center;
+    padding: 5px 20px 0px 20px;
+    line-height: 1.9;
+}
+.icons
+{
+    text-align: center; 
+    position: relative;
+}
+.icons a 
+{
+    text-decoration: none;
+    font-size: 30px;
+    color:#299ADC;
+    margin-left: 15px;
+    position: relative;
+    bottom: 25px;
+    right: 5px;
+}
+
+/*Start The Section Of *********Qualified Doctor******************** */
+/* **************************************************************** */
